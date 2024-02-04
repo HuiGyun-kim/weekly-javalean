@@ -7,6 +7,11 @@ public class WashingMachine extends LargeAppliance {
 	public WashingMachine(String name, int price, int weight, int washPrograms) {
 		super(name, price, weight);
 		this.washPrograms = washPrograms;
+		System.out.println(
+			"당신이 고른 세탁기 인 " + getName() + "의 세탁 프로그램수는 " + getWashPrograms() + "개 이고, 이 상품의 배송 가격은 "
+				+ getDeliveryCharge(
+				getWeight(), getPrice()) + "원 입니다."
+		);
 	}
 
 	public int getWashPrograms() {
@@ -15,10 +20,5 @@ public class WashingMachine extends LargeAppliance {
 
 	public void setWashPrograms(int washPrograms) {
 		this.washPrograms = washPrograms;
-	}
-
-	public String toString() {
-		return "당신이 고른 세탁기인 " + getName() + "의 세탁 프로그램수는 " + getWashPrograms() + "개 이고, 이 상품의 배송 가격은 "
-			+ getDeliveryCharge(getWeight(), getPrice()) + "원 입니다.";
 	}
 }

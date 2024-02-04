@@ -7,6 +7,10 @@ public class SkincareProduct extends Beauty {
 	public SkincareProduct(String name, int price, int weight, String type) {
 		super(name, price, weight);
 		this.type = type;
+		System.out.println(
+			"당신이 고른 스킨케어 제품인 " + getName() + "에 제품의 형태는 " + getType() + "형 이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
+				getWeight(), getPrice()) + "원 입니다."
+		);
 	}
 
 	public String getType() {

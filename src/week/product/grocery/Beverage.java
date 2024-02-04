@@ -7,6 +7,10 @@ public class Beverage extends Grocery {
 	public Beverage(String name, int price, int weight, String flavor) {
 		super(name, price, weight);
 		this.flavor = flavor;
+		System.out.println(
+			"당신이 고른 음료 제품인 " + getName() + "의 맛은 " + getFlavor() + "이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
+				getWeight(), getPrice()) + "원 입니다."
+		);
 	}
 
 	public String getFlavor() {
@@ -15,12 +19,6 @@ public class Beverage extends Grocery {
 
 	public void setFlavor(String flavor) {
 		this.flavor = flavor;
-	}
-
-	@Override
-	public String toString() {
-		return "당신이 고른 음료 제품인 " + getName() + "의 맛은 " + getFlavor() + "이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
-			getWeight(), getPrice()) + "원 입니다.";
 	}
 }
 

@@ -7,6 +7,10 @@ public class Refrigerator extends LargeAppliance {
 	public Refrigerator(String name, int price, int weight, String energyRating) {
 		super(name, price, weight);
 		this.energyRating = energyRating;
+		System.out.println(
+			"당신이 고른 냉장고 인 " + getName() + "의 에너지등급은 " + getEnergyRating() + "이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
+				getWeight(), getPrice()) + "원 입니다."
+		);
 	}
 
 	public String getEnergyRating() {
@@ -15,10 +19,5 @@ public class Refrigerator extends LargeAppliance {
 
 	public void setEnergyRating(String energyRating) {
 		this.energyRating = energyRating;
-	}
-
-	public String toString() {
-		return "당신이 고른 냉장고인 " + getName() + "의 에너지등급은 " + getEnergyRating() + "이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
-			getWeight(), getPrice()) + "원 입니다.";
 	}
 }
