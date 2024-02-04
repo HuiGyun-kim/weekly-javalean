@@ -51,12 +51,20 @@ public class WeeklyQuiz {
 	public static void main(String[] args) {
 		// 상품 인스턴스 생성
 		Beauty makeupProduct = new MakeupProduct("러블리 레드 립스틱", 13000, 2, "레드");
+		System.out.println(makeupProduct);
 		Beauty perfumeProduct = new PerfumeProduct("오션 브리즈", 27000, 3, "신선한 바닷가");
+		System.out.println(perfumeProduct);
 		Beauty skincareProduct = new SkincareProduct("딥 클린 클레이 마스크", 29000, 4, "고체");
+		System.out.println(skincareProduct);
 		Grocery beverage = new Beverage("쿨 민트 티", 29000, 10, "민트");
+		System.out.println(beverage);
 		Grocery freshFood = new FreshFood("프리미엄 한우 스테이크", 59000, 15, "한국");
+		System.out.println(freshFood);
 		LargeAppliance airConditioner = new AirConditioner("에코 쿨 에어컨", 3800000, 140, "1등급");
+		System.out.println(airConditioner);
 		LargeAppliance refrigerator = new Refrigerator("크리스탈 아이스", 5300000, 640, "1등급");
+		System.out.println(refrigerator);
 		LargeAppliance washingMachine = new WashingMachine("클린 웨이브 AI 세탁기", 6830000, 250, 15);
+		System.out.println(washingMachine);
 	}
 }

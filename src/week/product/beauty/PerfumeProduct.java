@@ -7,10 +7,6 @@ public class PerfumeProduct extends Beauty {
 	public PerfumeProduct(String name, int price, int weight, String smellType) {
 		super(name, price, weight);
 		this.smellType = smellType;
-		System.out.println(
-			"당신이 고른 향수인 " + getName() + "의 향은 " + getSmellType() + "이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
-				getWeight(), getPrice()) + "원 입니다."
-		);
 	}
 
 	public String getSmellType() {
@@ -19,5 +15,11 @@ public class PerfumeProduct extends Beauty {
 
 	public void setSmellType(String smellType) {
 		this.smellType = smellType;
+	}
+
+	@Override
+	public String toString() {
+		return "당신이 고른 향수인 " + getName() + "의 향은 " + getSmellType() + "이고, 이 상품의 배송 가격은 " + getDeliveryCharge(
+			getWeight(), getPrice()) + "원 입니다.";
 	}
 }
