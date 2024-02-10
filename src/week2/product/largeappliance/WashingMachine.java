@@ -1,4 +1,4 @@
-package week.product.largeappliance;
+package week2.product.largeappliance;
 
 //세탁기 제품 클래스
 public class WashingMachine extends LargeAppliance {

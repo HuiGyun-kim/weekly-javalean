@@ -1,4 +1,4 @@
-package week.product.grocery;
+package week2.product.grocery;
 
 //신선 식품 클래스
 public class FreshFood extends Grocery {

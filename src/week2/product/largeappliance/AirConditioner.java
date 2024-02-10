@@ -1,4 +1,4 @@
-package week.product.largeappliance;
+package week2.product.largeappliance;
 
 //에어컨 제품 클래스
 public class AirConditioner extends LargeAppliance {

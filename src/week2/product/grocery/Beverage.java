@@ -1,4 +1,4 @@
-package week.product.grocery;
+package week2.product.grocery;
 
 //음료 제품 클래스
 public class Beverage extends Grocery {

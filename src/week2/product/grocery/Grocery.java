@@ -1,11 +1,11 @@
-package week.product.largeappliance;
+package week2.product.grocery;
 
-import week.DeliveryChargeCalculator;
-import week.Product;
+import week2.DeliveryChargeCalculator;
+import week2.Product;
 
-public class LargeAppliance extends Product implements DeliveryChargeCalculator {
+public class Grocery extends Product implements DeliveryChargeCalculator {
 
-	public LargeAppliance(String name, int price, int weight) {
+	public Grocery(String name, int price, int weight) {
 		super(name, price, weight);
 	}
 

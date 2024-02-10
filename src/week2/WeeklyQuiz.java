@@ -1,4 +1,4 @@
-package week;
+package week2;
 
 /*
 <구현 범위>
@@ -35,17 +35,17 @@ package week;
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 */
 
-import week.product.beauty.Beauty;
-import week.product.beauty.MakeupProduct;
-import week.product.beauty.PerfumeProduct;
-import week.product.beauty.SkincareProduct;
-import week.product.grocery.Beverage;
-import week.product.grocery.FreshFood;
-import week.product.grocery.Grocery;
-import week.product.largeappliance.AirConditioner;
-import week.product.largeappliance.LargeAppliance;
-import week.product.largeappliance.Refrigerator;
-import week.product.largeappliance.WashingMachine;
+import week2.product.beauty.Beauty;
+import week2.product.beauty.MakeupProduct;
+import week2.product.beauty.PerfumeProduct;
+import week2.product.beauty.SkincareProduct;
+import week2.product.grocery.Beverage;
+import week2.product.grocery.FreshFood;
+import week2.product.grocery.Grocery;
+import week2.product.largeappliance.AirConditioner;
+import week2.product.largeappliance.LargeAppliance;
+import week2.product.largeappliance.Refrigerator;
+import week2.product.largeappliance.WashingMachine;
 
 public class WeeklyQuiz {
 	public static void main(String[] args) {

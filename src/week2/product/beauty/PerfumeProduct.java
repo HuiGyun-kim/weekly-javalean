@@ -1,4 +1,4 @@
-package week.product.beauty;
+package week2.product.beauty;
 
 //향수 제품 클래스
 public class PerfumeProduct extends Beauty {

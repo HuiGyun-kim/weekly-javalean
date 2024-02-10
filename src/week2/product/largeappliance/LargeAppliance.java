@@ -1,11 +1,11 @@
-package week.product.beauty;
+package week2.product.largeappliance;
 
-import week.DeliveryChargeCalculator;
-import week.Product;
+import week2.DeliveryChargeCalculator;
+import week2.Product;
 
-public class Beauty extends Product implements DeliveryChargeCalculator {
+public class LargeAppliance extends Product implements DeliveryChargeCalculator {
 
-	public Beauty(String name, int price, int weight) {
+	public LargeAppliance(String name, int price, int weight) {
 		super(name, price, weight);
 	}
 
@@ -28,4 +28,5 @@ public class Beauty extends Product implements DeliveryChargeCalculator {
 
 		return deliveryTip;
 	}
+
 }
