@@ -22,6 +22,9 @@ public class AddressBook {
 					+ ", 회사명 : " + ((PersonalContact)contact).getRelationship());
 			}
 		}
+		if (contacts.isEmpty()) {
+			System.out.println("연락처를 찾을 수 없습니다.");
+		}
 	}
 
 	//중복되는 이름과 번호 체크하는 메소드
